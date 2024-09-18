@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Academic Performance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Student Academic Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" data-target="personal-info">Personal Info</a></li>
+                    <li><a href="#" data-target="attendance">Attendance</a></li>
+                    <li><a href="#" data-target="marksheet">Marksheet</a></li>
+                    <li><a href="#" data-target="pass">Pass</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="personal-info" class="section hidden">
+        <div class="container">
+            <h2>Personal Information</h2>
+            <div class="info">
+                <img src="https://via.placeholder.com/150" alt="Student Photo" class="profile-photo">
+                <div class="details">
+                    <!-- Personal info will be dynamically injected here -->
+                    <p><strong>Name:</strong> Sachin</p>
+                    <p><strong>College or Department:</strong>Cluster Innovation Centre</p>
+                    <p><strong>Student ID:</strong> 22CINCBTIM000039</p>
+                    <p><strong>Date of Birth:</strong> October 11, 2003</p>
+                    <p><strong>Email:</strong> sachinmunjar1110@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="attendance" class="section hidden">
+        <div class="container">
+            <h2>Attendance Record</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descipline</th>
+                        <th>Total Classes</th>
+                        <th>Attended Classes</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Attendance records will be dynamically injected here -->
+                     <tr>
+                        <td>Linear Programming and Game Theory</td>
+                        <td>100</td>
+                        <td>35</td>
+                        <td>35%</td>
+                     </tr>
+                     <tr>
+                        <td>Computer Networks</td>
+                        <td>100</td>
+                        <td>45</td>
+                        <td>45%</td>
+                     </tr>
+                     <tr>
+                        <td>ML and IOT</td>
+                        <td>100</td>
+                        <td>45</td>
+                        <td>45%</td>
+                     </tr>
+                     <tr>
+                        <td>Electronis</td>
+                        <td>100</td>
+                        <td>45</td>
+                        <td>45%</td>
+                     </tr>
+                     <tr>
+                        <td>Software Development</td>
+                        <td>100</td>
+                        <td>45</td>
+                        <td>45%</td>
+                     </tr>
+                     <tr>
+                        <td>Total</td>
+                        <td>500</td>
+                        <td>215</td>
+                        <td>43%</td>
+                     </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="marksheet" class="section hidden">
+        <div class="container">
+            <h2>Marksheet</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks Obtained</th>
+                        <th>Total Marks</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Marksheet records will be dynamically injected here -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section id="pass" class="section hidden">
+        <div class="container">
+            <h2>Pass</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Organisation</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr>
+                        <td>Delhi Transport Corporation</td>
+                        <td><button class="gobutton">Go</button></td>
+                     </tr>
+                     <tr>
+                        <td>Delhi Metro Rail Corporation</td>
+                        <td><button class="gobutton">Go</button></td>
+                     </tr>
+                     <tr>
+                        <td>Sports Complex, University of Delhi</td>
+                        <td><button class="gobutton">Go</button></td>
+                     </tr>
+                     <tr>
+                        <td>Central Science Library</td>
+                        <td><button class="gobutton">Go</button></td>
+                     </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2024 Student Dashboard. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
